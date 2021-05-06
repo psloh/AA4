@@ -1,4 +1,4 @@
-### Alien Attack IV
+# Alien Attack IV
 
 ## Po-Shen Loh
 
@@ -21,12 +21,16 @@ in Madison, Wisconsin. For laughs, the project journal (`Aa4/Journal.doc`
 in this repository) as written by the then-teenage author is copied below.
 
 
-PROJECT JOURNAL
+## PROJECT JOURNAL
 
 Po-Shen Loh
+
 Period 5
+
 Mr. Williams
+
 Project Title: Alien Attack IV
+
 Date begun: March 23, 1998
 
 Description: Vertically scrolling 2-D scroller.
