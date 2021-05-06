@@ -1,0 +1,200 @@
+;music track block
+TRACK=0
+
+;level description block
+LINES=11
+To finance your next Uranian mission, you have been chosen
+to strike a rebel group's base on earth.  This group, the
+Plutonites, sympathizes with the Plutonians and is leading
+terrorist attacks around the globe.
+
+Take our their base.  Intelligence reports that it is
+heavily defended by gun turrets and fighters (loaned from
+the Plutonian forces).  Their governmental buildings
+contain vast sums of money.  Pick up the gems --- you need
+to accumulate 100000c in order to purchase an auto-tracking
+fire-cannon for your next mission.
+
+;scenery description block
+NUMBER OF SCENERY TILES=16
+LEVEL GRAPHICS FILE=style1.gph
+LEVEL MODULE FILE=style1.mod
+
+;scenery strip description block
+NUMBER OF SCENERY STRIPS=15
+ 9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+ 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
+11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+ 9  9  9  9  9  9  9  9  9  9  9  9  9  9  9 12  9  9  9  9
+ 9  9  9 12  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+ 9  9  9  9  9  9  9  9  9  9  9 12  9  9  9  9  9  9  9  9
+13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13
+13 13 13 13 13 13 13 13 13 13 13 14  9  9  9  9  9  9  9  9
+ 9  9  9  9  9  9  9  9  9  9  9 15  9  9  9  9  9  9  9  9
+ 9  9  9  9  9  9  9  9  9  9  9 16 13 13 13 13 13 13 13 13
+ 3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3
+ 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4
+ 2  2  2  2  2  2  2  2  2  1  1  1  2  2  2  2  2  2  2  2
+
+;scenery list block
+NUMBER OF ROWS=120
+1 1 1 1 1 7 6 1 1 1 1 5 1 1 1 3 2 2 2 2
+2 2 2 2 4 1 1 1 1 1 6 1 1 5 1 1 1 7 1 1
+8 6 1 9 10 10 11 1 1 1 1 9 10 10 11 1 1 1 8 8
+1 1 3 2 2 2 2 12 13 13 13 13 14 4 1 1 1 1 1 6
+1 1 1 7 1 1 6 1 1 1 3 2 15 15 15 2 2 2 4 1
+1 1 9 10 10 11 1 1 1 1 5 1 1 3 2 2 2 4 1 1
+
+;enemy list block
+NUMBER OF ENEMIES=28
+ ;for each enemy
+ ;ENEMY <1>
+ TYPE=6
+ POSITION=160 400
+ PATH=0
+ CARRIES=1
+ ;ENEMY <2>
+ TYPE=6
+ POSITION=195 400
+ PATH=0
+ CARRIES=1
+ ;ENEMY <3>
+ TYPE=6
+ POSITION=125 400
+ PATH=2
+ CARRIES=0
+ ;ENEMY <4>
+ TYPE=2
+ POSITION=120 450
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <5>
+ TYPE=2
+ POSITION=200 450
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <6>
+ TYPE=2
+ POSITION=100 450
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <7>
+ TYPE=2
+ POSITION=220 450
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <8>
+ TYPE=6
+ POSITION=80 500
+ PATH=0
+ CARRIES=1
+ ;ENEMY <9>
+ TYPE=6
+ POSITION=240 500
+ PATH=0
+ CARRIES=1
+
+ ;ENEMY <10>
+ TYPE=3
+ POSITION=30 600
+ PATH=3
+ CARRIES=1
+
+ ;ENEMY <11>
+ TYPE=6
+ POSITION=160 900
+ PATH=0
+ CARRIES=1
+ ;ENEMY <12>
+ TYPE=2
+ POSITION=120 900
+ PATH=0
+ CARRIES=1
+ ;ENEMY <13>
+ TYPE=6
+ POSITION=200 900
+ PATH=0
+ CARRIES=1
+ ;ENEMY <14>
+ TYPE=2
+ POSITION=120 930
+ PATH=0
+ CARRIES=1
+ ;ENEMY <15>
+ TYPE=2
+ POSITION=200 1050
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <16>
+ TYPE=6
+ POSITION=100 1050
+ PATH=2
+ CARRIES=1
+ ;ENEMY <17>
+ TYPE=2
+ POSITION=220 1100
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <18>
+ TYPE=2
+ POSITION=80 1110
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <19>
+ TYPE=2
+ POSITION=240 1120
+ PATH=0
+ CARRIES=-1
+
+ ;ENEMY <20>
+ TYPE=1
+ POSITION=30 1130
+ PATH=3
+ CARRIES=0
+
+ ;ENEMY <21>
+ TYPE=0
+ POSITION=100 1130
+ PATH=1
+ CARRIES=0
+ ;ENEMY <22>
+ TYPE=1
+ POSITION=219 1130
+ PATH=1
+ CARRIES=0
+
+ ;ENEMY <23>
+ TYPE=6
+ POSITION=160 1200
+ PATH=2
+ CARRIES=1
+
+ ;ENDMY <24>
+ TYPE=2
+ POSITION=40 1250
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <25>
+ TYPE=3
+ POSITION=240 1300
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <26>
+ TYPE=0
+ POSITION=290 1600
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <27>
+ TYPE=0
+ POSITION=80 1700
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <28>
+ TYPE=3
+ POSITION=140 1800
+ PATH=2
+ CARRIES=-1
+
+EOF

@@ -1,0 +1,18 @@
+;level description block
+LINES=1
+this is a cool level
+
+;scenery description block
+NUMBER OF SCENERY TILES=1
+LEVEL GRAPHICS FILE=land.gph
+
+;scenery strip description block
+NUMBER OF SCENERY STRIPS=1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+;scenery list block
+NUMBER OF ROWS=40
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+EOF

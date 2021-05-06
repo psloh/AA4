@@ -1,0 +1,16 @@
+0000.gph -- Basic brown land.
+0001.gph -- Basic blue water.
+0002.gph -- Interface with land above, water below.
+0003.gph -- Interface with water above, land below.
+0004.gph -- Interface with land north&west, water below.
+0005.gph -- Interface with land north&east, water below.
+0006.gph -- Interface with land south&east, water above.
+0007.gph -- Interface with land south&west, water above.
+0008.gph -- Green land.
+0009.gph -- Interface with green land below, blue water above.
+0010.gph -- Interface with green land above, blue water below.
+0011.gph -- Blue pond in green land.
+0012.gph -- Blue stream running 180 degrees in green land.
+0013.gph -- Blue stream turns from 180 degrees to 90 degrees.
+0014.gph -- Blue stream running 90 degrees in green land.
+0015.gph -- Blue stream turns from 90 degrees to 0 degrees.

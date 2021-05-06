@@ -1,0 +1,13 @@
+land.gph
+water.gph
+lw_n.gph
+lw_s.gph
+lw_nw.gph
+lw_ne.gph
+lw_se.gph
+lw_sw.gph
+pbolt.gph
+fball.gph
+eship.gph
+eship2.gph
+mother.gph

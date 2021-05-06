@@ -1,0 +1,4 @@
+;ship information
+XDIM=33
+YDIM=43
+GRAPHICS FILE=GAME.GPH

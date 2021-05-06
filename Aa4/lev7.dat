@@ -1,0 +1,196 @@
+;music track block
+TRACK=8
+
+;level description block
+LINES=8
+Finish off the alien base on Uranus.  The rest of their
+outpost must be eliminated.  This is a continuation of
+the prior mission.
+
+Predicted: Several Class Alpha Battleships.
+
+Many ground turrets are to be expected, as this is the
+heart of their island outpost.
+
+;scenery description block
+NUMBER OF SCENERY TILES=16
+LEVEL GRAPHICS FILE=style1.gph
+LEVEL MODULE FILE=style1.mod
+
+;scenery strip description block
+NUMBER OF SCENERY STRIPS=14
+ 9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+ 2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
+11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+ 9  9  9  9  9  9  9  9  9  9  9  9  9  9  9 12  9  9  9  9
+ 9  9  9 12  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+ 9  9  9  9  9  9  9  9  9  9  9 12  9  9  9  9  9  9  9  9
+13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13
+13 13 13 13 13 14  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+ 9  9  9  9  9 15  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+ 9  9  9  9  9 16 13 13 13 13 13 13 13 13 13 13 13 13 13 13
+ 3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3
+ 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+ 4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4
+
+;scenery list block
+NUMBER OF ROWS=120
+1 1 1 1 1 7 6 1 1 1 1 5 1 1 1 3 2 2 2 2
+2 2 2 2 4 1 1 1 1 1 6 1 1 5 1 1 1 7 1 1
+8 6 1 9 10 10 11 1 1 1 1 9 10 10 11 1 1 1 1 5
+1 1 3 2 2 2 2 12 13 13 13 13 14 4 1 1 1 1 1 6
+1 1 1 7 1 1 6 1 1 1 5 1 1 1 3 2 2 2 4 1
+1 1 9 10 10 11 1 1 1 1 5 1 1 3 2 2 2 4 1 1
+
+;enemy list block
+NUMBER OF ENEMIES=28
+ ;for each enemy
+ ;ENEMY <1>
+ TYPE=2
+ POSITION=160 400
+ PATH=0
+ CARRIES=0
+ ;ENEMY <2>
+ TYPE=2
+ POSITION=140 395
+ PATH=0
+ CARRIES=0
+ ;ENEMY <3>
+ TYPE=2
+ POSITION=180 395
+ PATH=2
+ CARRIES=0
+ ;ENEMY <4>
+ TYPE=2
+ POSITION=120 505
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <5>
+ TYPE=3
+ POSITION=200 505
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <6>
+ TYPE=2
+ POSITION=100 510
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <7>
+ TYPE=1
+ POSITION=220 610
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <8>
+ TYPE=1
+ POSITION=80 615
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <9>
+ TYPE=2
+ POSITION=240 615
+ PATH=0
+ CARRIES=-1
+
+ ;ENEMY <10>
+ TYPE=0
+ POSITION=30 500
+ PATH=3
+ CARRIES=0
+
+ ;ENEMY <11>
+ TYPE=2
+ POSITION=160 700
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <12>
+ TYPE=2
+ POSITION=140 695
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <13>
+ TYPE=2
+ POSITION=180 705
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <14>
+ TYPE=2
+ POSITION=120 810
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <15>
+ TYPE=2
+ POSITION=200 815
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <16>
+ TYPE=3
+ POSITION=100 820
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <17>
+ TYPE=2
+ POSITION=220 825
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <18>
+ TYPE=2
+ POSITION=80 930
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <19>
+ TYPE=2
+ POSITION=240 935
+ PATH=0
+ CARRIES=-1
+
+ ;ENEMY <20>
+ TYPE=1
+ POSITION=30 900
+ PATH=3
+ CARRIES=0
+
+ ;ENEMY <21>
+ TYPE=0
+ POSITION=100 1000
+ PATH=1
+ CARRIES=0
+ ;ENEMY <22>
+ TYPE=1
+ POSITION=219 1050
+ PATH=1
+ CARRIES=0
+
+ ;ENEMY <23>
+ TYPE=3
+ POSITION=160 1200
+ PATH=2
+ CARRIES=-1
+
+ ;ENDMY <24>
+ TYPE=2
+ POSITION=40 1400
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <25>
+ TYPE=2
+ POSITION=240 1500
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <26>
+ TYPE=0
+ POSITION=290 1600
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <27>
+ TYPE=0
+ POSITION=80 1700
+ PATH=2
+ CARRIES=-1
+ ;ENEMY <28>
+ TYPE=2
+ POSITION=140 1800
+ PATH=2
+ CARRIES=-1
+
+EOF

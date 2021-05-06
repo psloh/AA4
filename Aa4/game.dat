@@ -1,0 +1,315 @@
+;general information
+SPEED MODE=4
+
+;ship information
+XDIM=33
+YDIM=43
+GRAPHICS FILE=game.gph
+
+;projectiles
+NUMBER OF PROJECTILES=8
+ ;for each projectile  <1>
+ XDIM=5
+ YDIM=8
+ SPEED=5
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=2
+
+ ;for each projectile  <2>
+ XDIM=5
+ YDIM=8
+ SPEED=4
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=30
+
+ ;for each projectile  <3>
+ XDIM=5
+ YDIM=8
+ SPEED=20
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=2
+
+ ;for each projectile  <4>
+ XDIM=5
+ YDIM=8
+ SPEED=20
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=3
+
+ ;for each projectile  <5>
+ XDIM=5
+ YDIM=8
+ SPEED=20
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=4
+
+ ;for each projectile  <6>
+ XDIM=5
+ YDIM=8
+ SPEED=10
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=10
+
+ ;for each projectile  <7>
+ XDIM=5
+ YDIM=8
+ SPEED=8
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=20
+
+ ;for each projectile  <8>
+ XDIM=5
+ YDIM=8
+ SPEED=6
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=25
+ 
+
+;weapons
+NUMBER OF WEAPONS=8
+ ;for each weapon   weapon <1>
+ NUM PROJS SHOT=2
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=-9
+  Y OFF=-9
+  THETA=90
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=9
+  Y OFF=-9
+  THETA=90
+  ;end projectile section
+ REFIRE RATE=3
+ POWER=5
+ XDIM=16
+ YDIM=15
+ LINES=6
+This basic fire-cannon is the main
+weapon of most of the light fighters
+in our arsenal.  Inexpensive and reliable,
+it is well worth its price.  It shoots
+a pair of fireballs, which deal a punch
+to most light fighters.
+ PRICE=10000
+ PRIMARY=1
+ SOUND NUM=1
+
+
+ ;for each weapon  weapon <2>
+ NUM PROJS SHOT=1
+  ;for each proj shot
+  PROJECTILE=1
+  X OFF=0
+  Y OFF=-18
+  THETA=90
+  ;end projectile section
+ REFIRE RATE=6
+ POWER=3
+ XDIM=16
+ YDIM=15
+ LINES=4
+The class Green missile launcher
+fires powerful rockets which will
+destroy most heavy fighters and
+bombers in a single stroke.
+ PRICE=80000
+ PRIMARY=0
+ SOUND NUM=1
+
+
+ ;for each weapon   weapon <3>
+ NUM PROJS SHOT=1
+  ;for each proj shot
+  PROJECTILE=2
+  X OFF=0
+  Y OFF=0
+  THETA=10000
+  ;end projectile section
+ REFIRE RATE=2
+ POWER=2
+ XDIM=16
+ YDIM=15
+ LINES=5
+The auto-tracking fire-cannon from
+Po Technologies uses radar to aim
+its deadly projectiles.  These
+bursts of fire quickly decimate most
+light fighters.
+ PRICE=100000
+ PRIMARY=1
+ SOUND NUM=1
+
+
+
+ ;for each weapon   weapon <4>
+ NUM PROJS SHOT=1
+  ;for each proj shot
+  PROJECTILE=3
+  X OFF=0
+  Y OFF=0
+  THETA=10000
+  ;end projectile section
+ REFIRE RATE=2
+ POWER=3
+ XDIM=16
+ YDIM=15
+ LINES=5
+The auto-tracking plasma cannon from
+Po Technologies uses radar to aim
+its deadly projectiles.  These
+bursts of plasma quickly decimate most
+medium fighters.
+ PRICE=200000
+ PRIMARY=1
+ SOUND NUM=1
+
+
+ ;for each weapon   weapon <5>
+ NUM PROJS SHOT=1
+  ;for each proj shot
+  PROJECTILE=4
+  X OFF=0
+  Y OFF=0
+  THETA=10000
+  ;end projectile section
+ REFIRE RATE=2
+ POWER=3
+ XDIM=16
+ YDIM=15
+ LINES=5
+The auto-tracking laser cannon from
+Po Technologies uses radar to aim
+its deadly bolts.  These laser bursts
+deal serious damage to even the most
+heavily armored ships.
+ PRICE=800000
+ PRIMARY=1
+ SOUND NUM=1
+
+
+ ;for each weapon  weapon <6>
+ NUM PROJS SHOT=2
+  ;for each proj shot
+  PROJECTILE=5
+  X OFF=-9
+  Y OFF=-9
+  THETA=90
+  ;for each proj shot
+  PROJECTILE=5
+  X OFF=9
+  Y OFF=-9
+  THETA=90
+  ;end projectile section
+ REFIRE RATE=8
+ POWER=2
+ XDIM=16
+ YDIM=15
+ LINES=4
+The class Red missile launcher
+fires pairs of rockets which will
+destroy most light fighters and
+bombers in a single stroke.
+ PRICE=20000
+ PRIMARY=0
+ SOUND NUM=1
+
+ ;for each weapon  weapon <6>
+ NUM PROJS SHOT=2
+  ;for each proj shot
+  PROJECTILE=6
+  X OFF=-9
+  Y OFF=-9
+  THETA=90
+  ;for each proj shot
+  PROJECTILE=6
+  X OFF=9
+  Y OFF=-9
+  THETA=90
+  ;end projectile section
+ REFIRE RATE=8
+ POWER=4
+ XDIM=16
+ YDIM=15
+ LINES=5
+The class Blue missile launcher
+inflicts light damage upon most
+ships.  Nevertheless, it is more
+powerful than the class Red
+missile launcher.
+ PRICE=40000
+ PRIMARY=0
+ SOUND NUM=1
+
+ ;for each weapon  weapon <6>
+ NUM PROJS SHOT=2
+  ;for each proj shot
+  PROJECTILE=7
+  X OFF=-9
+  Y OFF=-9
+  THETA=90
+  ;for each proj shot
+  PROJECTILE=7
+  X OFF=9
+  Y OFF=-9
+  THETA=90
+  ;end projectile section
+ REFIRE RATE=8
+ POWER=6
+ XDIM=16
+ YDIM=15
+ LINES=4
+The class Aqua missile launcher
+fires pairs of rockets which will
+destroy most medium fighters and
+bombers in a single stroke.
+ PRICE=60000
+ PRIMARY=0
+ SOUND NUM=1
+
+
+
+;explosions
+SPACING X=10
+SPACING Y=10
+NUMBER OF EXPLOSIONS=4
+ ;for each explosion
+ XDIM=7
+ YDIM=7
+
+ XDIM=15
+ YDIM=15
+
+ XDIM=17
+ YDIM=17
+
+ XDIM=17
+ YDIM=17
+
+;goodies
+NUMBER OF GOODIES=2
+ ;for each goody   <1>
+ CASH=1000
+ SHIELD=0
+ WEAPON=-1
+ XDIM=9
+ YDIM=14
+
+ ;for each goody   <2>
+ CASH=10000
+ SHIELD=10
+ WEAPON=-1
+ XDIM=9
+ YDIM=14
+
+;shop definition file
+SHOP DEF FILE=shop.po
+STORE DEF FILE=store.po

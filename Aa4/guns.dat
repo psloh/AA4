@@ -1,0 +1,95 @@
+;general information
+SPEED MODE=3
+
+;ship information
+XDIM=33
+YDIM=43
+GRAPHICS FILE=game.gph
+
+;projectiles
+NUMBER OF PROJECTILES=2
+ ;for each projectile
+ XDIM=5
+ YDIM=8
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=10
+ ;for each projectile
+ XDIM=5
+ YDIM=8
+ EXPLODE=0
+ EXPLOSION RADIUS=0
+ HITPOINTS=10
+
+;weapons
+NUMBER OF WEAPONS=1
+ ;for each weapon
+ NUM PROJS SHOT=10
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=-9
+  Y OFF=-9
+  THETA=95
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=0
+  Y OFF=-9
+  THETA=87
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=0
+  Y OFF=-9
+  THETA=93
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=9
+  Y OFF=-9
+  THETA=85
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=9
+  Y OFF=-9
+  THETA=80
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=-9
+  Y OFF=-9
+  THETA=100
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=9
+  Y OFF=-9
+  THETA=75
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=-9
+  Y OFF=-9
+  THETA=105
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=9
+  Y OFF=-9
+  THETA=70
+  ;for each proj shot
+  PROJECTILE=0
+  X OFF=-9
+  Y OFF=-9
+  THETA=110
+  ;end projectile section
+ REFIRE RATE=3
+ POWER=5
+ XDIM=16
+ YDIM=15
+ LINES=1
+This shoots fireballs.
+ PRICE=1000
+ SOUND NUM=1
+
+;goodies
+NUMBER OF GOODIES=0
+ ;for each goody
+ CASH=1000
+ SHIELD=0
+ WEAPON=0
+ XDIM=16
+ YDIM=15

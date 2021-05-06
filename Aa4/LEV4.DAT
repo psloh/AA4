@@ -1,0 +1,167 @@
+;music track block
+TRACK=8
+
+;level description block
+LINES=8
+Destroy an alien base on Jupiter.  Large wings
+of class Alpha fighters are to be expected.
+
+Luckily for you, the Alpha fighters have sacrificed
+shields for speed.  So, they should be easy to pick off.
+
+On the other hand, the Alpha bombers have sacrificed
+speed for shields and firepower.  Beware of those.
+
+;scenery description block
+NUMBER OF SCENERY TILES=16
+LEVEL GRAPHICS FILE=style1.gph
+LEVEL MODULE FILE=style1.mod
+
+;scenery strip description block
+NUMBER OF SCENERY STRIPS=11
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2
+2 2 2 2 2 2 1 1 1 1 1 2 2 2 2 2 2 2 2 2
+2 2 2 2 1 1 1 2 2 2 2 2 2 2 2 2 1 1 2 2
+1 1 2 2 2 2 2 2 2 1 2 1 2 1 1 2 2 2 2 2
+2 2 2 2 2 2 2 2 2 1 1 1 1 1 2 2 2 2 2 2
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+1 1 1 1 1 1 1 1 2 2 2 1 1 1 1 1 1 1 1 1
+1 1 2 1 1 1 1 1 1 1 1 1 2 2 2 2 1 1 1 1
+
+;scenery list block
+NUMBER OF ROWS=120
+2 2 3 3 2 5 5 5 2 2 4 2 2 2 4 4 4 2 5 2
+2 2 2 2 6 6 6 2 2 2 2 2 7 7 2 2 2 2 5 5
+5 5 5 2 2 2 2 2 2 8 1 10 1 1 1 1 1 11 1 1
+9 2 3 3 2 2 2 2 2 6 6 6 2 2 2 2 6 2 2 2
+2 2 2 2 7 7 2 2 2 2 2 2 2 5 5 5 2 2 4 4
+2 2 2 5 5 2 2 6 2 2 2 7 7 2 2 4 4 4 2 2
+
+;enemy list block
+NUMBER OF ENEMIES=23
+ ;for each enemy
+ ;ENEMY <1>
+ TYPE=0
+ POSITION=160 400
+ PATH=0
+ CARRIES=0
+ ;ENEMY <2>
+ TYPE=0
+ POSITION=140 395
+ PATH=0
+ CARRIES=0
+ ;ENEMY <3>
+ TYPE=0
+ POSITION=180 395
+ PATH=0
+ CARRIES=0
+ ;ENEMY <4>
+ TYPE=0
+ POSITION=120 405
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <5>
+ TYPE=0
+ POSITION=200 405
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <6>
+ TYPE=0
+ POSITION=100 410
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <7>
+ TYPE=0
+ POSITION=220 410
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <8>
+ TYPE=0
+ POSITION=80 415
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <9>
+ TYPE=0
+ POSITION=240 415
+ PATH=0
+ CARRIES=-1
+
+ ;ENEMY <10>
+ TYPE=1
+ POSITION=30 500
+ PATH=3
+ CARRIES=0
+
+ ;ENEMY <11>
+ TYPE=0
+ POSITION=160 700
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <12>
+ TYPE=0
+ POSITION=140 695
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <13>
+ TYPE=0
+ POSITION=180 705
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <14>
+ TYPE=0
+ POSITION=120 710
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <15>
+ TYPE=0
+ POSITION=200 715
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <16>
+ TYPE=0
+ POSITION=100 720
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <17>
+ TYPE=0
+ POSITION=220 725
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <18>
+ TYPE=0
+ POSITION=80 730
+ PATH=0
+ CARRIES=-1
+ ;ENEMY <19>
+ TYPE=0
+ POSITION=240 735
+ PATH=0
+ CARRIES=-1
+
+ ;ENEMY <20>
+ TYPE=1
+ POSITION=30 900
+ PATH=3
+ CARRIES=0
+
+ ;ENEMY <21>
+ TYPE=1
+ POSITION=100 1000
+ PATH=1
+ CARRIES=0
+ ;ENEMY <22>
+ TYPE=1
+ POSITION=219 1050
+ PATH=1
+ CARRIES=0
+
+ ;ENEMY <23>
+ TYPE=3
+ POSITION=160 1100
+ PATH=2
+ CARRIES=-1
+
+EOF

@@ -1,0 +1,184 @@
+REM     basic outline of screen
+
+SETBACK 1
+SETCOLOR 15
+HLINE 140 50 240 50
+hline 140 100 240 100
+hline 140 105 240 105
+vline 240 40 240 120
+
+vline 250 60 250 148
+vline 300 50 300 189
+line 250 60 300 50
+
+vline 20 50 20 172
+vline 50 60 50 140
+line 20 50 50 60
+
+REM     quadratic curves
+quad_y= -0.002551 0 0 -140 0 140 50
+quad_y= 0.005102 0 0 -140 0 140 100
+quad_x= 0.012500 0 0 0 80 240 120
+
+SETFILLCOLOR 23
+floodfill 160 180 15
+floodfill 160 103 15
+floodfill 130 105 15
+
+quad_y= 0.006597 0 0 -120 0 140 105
+quad_x= 0.050000 0 0 -40 0 240 40
+ellipse 240 120 90 180 10 7
+quad_x= 0.009375 0 0 0 80 230 120
+
+REM     carpet
+SETFILLCOLOR 139
+floodfill 160 180 15
+
+
+REM     door paint
+SETFILLCOLOR 54
+floodfill 21 100 15
+floodfill 299 100 15
+
+
+REM     door separaters
+SETCOLOR 26
+vline 35 56 35 155
+vline 274 56 274 172
+
+
+
+SETCOLOR 15
+REM     computer
+REM   computer frame
+rem vline 110 57 110 92
+rem line 110 92 139 89
+rem vline 139 60 139 89
+rem line 110 57 139 60
+
+REM   computer screen
+vline 115 66 115 78
+vline 134 67 134 77
+line 117 64 132 65
+line 117 80 132 79
+putpixel 116 65 15
+putpixel 116 79 15
+putpixel 133 78 15
+putpixel 133 66 15
+SETFILLCOLOR 0
+floodfill 118 70 15
+
+REM   smiley face
+SETCOLOR 98
+hline 120 75 129 75
+putpixel 119 74 98
+putpixel 130 74 98
+vline 122 69 122 72
+vline 127 69 127 72
+
+REM   lights
+SETCOLOR 10
+hline 126 82 127 82
+SETCOLOR 12
+hline 129 82 130 82
+rem putpixel 136 75 10
+rem putpixel 136 77 12
+
+REM   coloring in the rest of the computer
+rem SETFILLCOLOR 23
+rem floodfill 112 80 15
+rem floodfill 138 80 15
+
+REM   the keyboard
+rem putpixel 116 84 41
+rem putpixel 118 84 42
+rem putpixel 120 84 43
+rem putpixel 122 84 44
+rem putpixel 124 84 45
+rem putpixel 126 84 46
+rem putpixel 128 84 47
+rem putpixel 130 84 48
+rem putpixel 132 84 49
+rem putpixel 134 84 50
+
+rem putpixel 115 86 61
+rem putpixel 117 86 62
+rem putpixel 119 86 63
+rem putpixel 121 86 64
+rem putpixel 123 86 65
+rem putpixel 125 86 66
+rem putpixel 127 86 67
+rem putpixel 129 86 68
+rem putpixel 131 86 69
+rem putpixel 133 86 70
+
+rem putpixel 115 82 81
+rem putpixel 117 82 82
+rem putpixel 119 82 83
+rem putpixel 121 82 84
+rem putpixel 123 82 85
+rem putpixel 125 82 86
+rem putpixel 127 82 87
+rem putpixel 129 82 88
+rem putpixel 131 82 89
+rem putpixel 133 82 90
+
+
+REM   shading in the shadow of the computer
+rem SETCOLOR 22
+rem line 111 56 140 59
+rem line 112 55 141 58
+rem vline 140 60 140 89
+rem vline 141 59 141 88
+
+
+REM     HANGAR arrows
+SETCOLOR 12
+line 180 70 180 80
+line 180 80 190 75
+line 190 75 180 70
+
+line 200 70 200 80
+line 200 80 210 75
+line 210 75 200 70
+
+line 220 70 220 80
+line 220 80 230 75
+line 230 75 220 70
+
+setcolor 42
+settextjustify 1 1
+outtextxy 205 65 HANGAR
+
+SETFILLCOLOR 42
+floodfill 181 75 12
+floodfill 201 75 12
+floodfill 221 75 12
+
+REM   ceiling
+SETCOLOR 15
+hline 81 40 239 40
+hline 54 30 244 30
+hline 34 20 259 20
+
+SETFILLCOLOR 20
+floodfill 160 41 15
+SETFILLCOLOR 21
+floodfill 160 31 15
+SETFILLCOLOR 22
+floodfill 160 21 15
+SETFILLCOLOR 23
+floodfill 160 0 15
+
+SETCOLOR 20
+hline 81 40 239 40
+SETCOLOR 21
+hline 54 30 244 30
+SETCOLOR 22
+hline 34 20 259 20
+SETCOLOR 23
+hline 2 0 318 0
+
+
+REM SETFILLCOLOR 20
+REM floodfill 160 0 15

@@ -1,0 +1,72 @@
+The object of this game is to destroy the invading alien
+task force.  They approach you head on (from the top of
+the screen).
+
+
+Controls:      (in game play)
+
+   Up arrow:    Accelerate forward
+   Down arrow:  Accelerate backward
+   Left arrow:  Accelerate left
+   Right arrow: Accelerate right
+   Control:     Fire primary and secondary weapons
+   Alt:         Cycle between all available secondary
+                weapons.
+   P:           Pause game.
+   Escape:      Exit to main menu
+                           
+Display:
+
+   The indicator at the top of the screen lists your credit
+   status.
+   The left bar is your power status indicator.
+   The right bar is your shield status indicator.
+   The lower left corner of your screen shows you which
+   weapons you are currently using.  If a secondary weapon is
+   owned, then there will be two icons there.  Otherwise, there
+   only will be one.  The icon on the left is the primary
+   weapon that you are firing.  The icon on the right (if there
+   is one) is the secondary weapon that you are firing.
+
+
+Game Play:
+
+   Levels vary in length.  As you fly through them, enemies may
+   drop goodies when they die.  Pick those up for added bonuses.
+
+   Power is important because it recharges your shields.  Your
+   power regenerates automatically.  Once your power bar is full,
+   your shields begin to recharge, but at half the rate of power
+   recharge.  TIP: When your power bar is not full, your
+   shields will not recharge.  So, if your shields are at a
+   dangerously low level, stop firing for a little while.  That
+   will allow your power bar to fill up, and thus your shields will
+   be able to recharge.  Unfortunately, it may prove difficult to
+   avoid enemies without shooting them down.
+
+
+Space Base:
+
+   Between missions, you reside in the Space Base.  This station is
+   where you can conduct business.  The doorway on the left will lead
+   you to the upgrade computer.  You can buy/sell your weapons there.
+   To toggle between buy and sell mode, click the "MODE" button.
+
+   Primary weapons are always equipped.  You can only have one primary
+   weapon.  You can buy as many secondary weapons as you want, but
+   only one can fire at any given time.  (To toggle between your
+   secondary weapons, hit ALT in gameplay.)
+
+   The door to the right in the Space Base is the exit door.  It drops
+   you back to the main menu.
+
+   You may wish to save your game.  To save, click on the happy computer.
+   It is strongly recommended to save your game between levels.
+
+   After you are finished doing business in the Space Base, click on
+   the "HANGAR" arrows to fly the next mission.
+
+   Read the briefing carefully, and fulfill the mission.
+
+   Enjoy!
+
