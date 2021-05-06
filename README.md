@@ -1,12 +1,24 @@
-This repository is a window into the past. It contains the code for a video
-game that was written by Po-Shen Loh when he was in 10th grade, now
-playable through full DOS emulation in modern web browsers at:
+### Alien Attack IV
+
+## Po-Shen Loh
+
+This repository is a window into 1998, when 320x200 resolution with 256
+colors was standard. It contains the code for a video game that was written
+by Po-Shen Loh when he was in 10th grade, now playable through full DOS
+emulation in modern web browsers at:
 
 https://www.math.cmu.edu/~ploh/em-dosbox/aa4.html
 
-This was submitted as a final project in a high school computer programming
-class. For laughs, the project journal (`Aa4/Journal.doc` in this
-repository) is copied below.
+Back then, it was nontrivial to smoothly process keyboard and mouse input
+and draw graphics. The sound code came from [Ethan
+Brodsky](http://homepages.cae.wisc.edu/~brodskye/smix/smix.html), who
+coincidentally was on the same Wisconsin statewide math team.
+
+This game was submitted as a final project in a high school computer
+programming class at [James Madison Memorial High
+School](https://en.wikipedia.org/wiki/James_Madison_Memorial_High_School)
+in Madison, Wisconsin. For laughs, the project journal (`Aa4/Journal.doc`
+in this repository) as written by the then-teenage author is copied below.
 
 
 PROJECT JOURNAL
