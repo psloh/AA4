@@ -11,11 +11,12 @@ https://www.math.cmu.edu/~ploh/em-dosbox/aa4.html
 
 Back then, it was nontrivial to smoothly process keyboard and mouse input
 and draw graphics. The sound code came from [Ethan
-Brodsky](http://homepages.cae.wisc.edu/~brodskye/smix/smix.html), who
+Brodsky](https://web.archive.org/web/20210211181817/http://homepages.cae.wisc.edu/~brodskye/smix/smix.html), who
 coincidentally was on the same Wisconsin statewide math team.
 
 This game was submitted as a final project in a high school computer
-programming class at [James Madison Memorial High
+programming class at James Madison Memorial High School (now named [Vel
+Phillips Memorial High
 School](https://en.wikipedia.org/wiki/James_Madison_Memorial_High_School)
 in Madison, Wisconsin. For laughs, the project journal (`Aa4/Journal.doc`
 in this repository) as written by the then-teenage author is copied below.
